@@ -1,0 +1,21 @@
+{
+  "name": "git",
+  "version": "1.0.0",
+  "description": "Git presentation",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js --ignore 'node_modules/'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "gulp-cssmin": "^0.1.7",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-image": "^2.7.5",
+    "nodemon": "^1.11.0"
+  }
+}
